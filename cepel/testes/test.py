@@ -1,8 +1,6 @@
 import unittest
-
-def fun(x):
-    return x + 1
+import cepel/cepel.py
 
 class MyTest(unittest.TestCase):
     def test(self):
-        self.assertEqual(fun(3), 4)
+        self.assertEqual(soma(1,2), 4)
