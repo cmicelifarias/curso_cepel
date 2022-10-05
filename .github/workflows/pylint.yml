@@ -21,5 +21,6 @@ jobs:
     - name: Running tests
       run: |
         python ./cepel/testes/*.py
+        python ./cepel/cepel.py
         
  
